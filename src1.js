@@ -1,7 +1,5 @@
 const sum = (...args) => {
     let sum = 0;
-
-
     try {
         if (args.length < 2) {
             throw new Error('INVALID_ARGUMENTS_COUNT');
@@ -19,5 +17,6 @@ const sum = (...args) => {
 };
 
 // export default sum;
-
+console.log(sum(1));
 console.log(sum(1, 2, 3, 5,'6'));
+console.log(sum(2,3,5));

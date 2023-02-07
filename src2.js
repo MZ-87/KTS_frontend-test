@@ -25,3 +25,5 @@ function curry(f) { // curry(f) выполняет каррирование
   let curriedPow = curry(pow);
   console.log(curriedPow(2)(3));
   console.log(pow(10,3));
+  console.log(curriedPow(2)('3'));
+  console.log(pow('10',3));
