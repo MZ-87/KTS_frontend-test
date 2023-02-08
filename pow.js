@@ -18,7 +18,7 @@ function curry(f) { // curry(f) выполняет каррирование
         }
         return result;
     } catch (e) {
-        console.log(e);
+      return e;
     }
 };
   

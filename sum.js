@@ -12,7 +12,7 @@ const sum = (...args) => {
         for (let arg of args) sum += arg;
         return sum;
     } catch (e) {
-        console.log(e);
+        return e;
     }
 };
 

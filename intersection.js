@@ -22,7 +22,7 @@ const intersection = (...args) => {
         }
         return result;
     } catch (e) {
-        console.log(e);
+        return e;
     }
 
 };
