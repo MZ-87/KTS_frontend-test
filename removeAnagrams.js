@@ -34,3 +34,5 @@ console.log(removeAnagrams(['cat', 'act', 'arc']));
 console.log(removeAnagrams(['car', 'arc']));
 console.log(removeAnagrams('str'));
 console.log(removeAnagrams(['str', 5]));
+
+//Реализуйте функцию removeAnagrams, которая принимает массив строк и удаляет из данного массива строки, являющиеся анаграммами.

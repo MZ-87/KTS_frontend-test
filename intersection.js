@@ -35,3 +35,5 @@ console.log(intersection ());
 console.log(intersection([], '[]'));
 console.log(intersection([], [1, '2']) );
 
+//Реализуйте функцию intersection, которая принимает два массива чисел и возвращает массив чисел, присутствующих в первом и во втором массивах.
+

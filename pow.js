@@ -27,3 +27,5 @@ function curry(f) { // curry(f) выполняет каррирование
   console.log(pow(10,3));
   console.log(curriedPow(2)('3'));
   console.log(pow('10',3));
+
+  // Реализуйте функцию pow, которая возвращает возведенное в степень число и имеет два формата вызова - pow(base, exponent) и pow(base)(exponent).

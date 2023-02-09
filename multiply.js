@@ -21,3 +21,6 @@ console.log(multiplyByTwo(3));   // 6
 // const multiplyByTwo = multiply(["two"]); //ошибка с кодом INVALID_ARGUMENT
 // const multiplyByTwo = multiply(2);
 console.log(multiplyByTwo('3'));   // ошибка с кодом INVALID_ARGUMENT
+
+
+//умножение с частичным применением
