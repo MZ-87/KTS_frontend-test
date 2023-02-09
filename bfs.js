@@ -12,3 +12,17 @@ function bfs(arg) {
         return e;
     }
 }
+
+
+const graph = {
+    A: ['B', 'C'],
+    B: ['D', 'E'],
+    C: ['F', 'G'],
+    D: [],
+    E: [],
+    F: [],
+    G: [],
+};
+
+console.log(bfs(graph));  // ['A', 'B', 'С', 'D', 'E', 'F', 'G']
+console.log( bfs('{}')); // ошибка с кодом INVALID_ARGUMENT

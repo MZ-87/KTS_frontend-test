@@ -12,3 +12,18 @@ function dfs(arg) {
         return e;
     }
 }
+
+
+
+const graph = {
+    A: ['B', 'C'],
+    B: ['D', 'E'],
+    C: ['F', 'G'],
+    D: [],
+    E: [],
+    F: [],
+    G: [],
+};
+
+console.log(dfs(graph));  // ['A', 'B', 'D', 'E', 'C', 'F', 'G']
+console.log(dfs('{}'));  // ошибка с кодом INVALID_ARGUMENT

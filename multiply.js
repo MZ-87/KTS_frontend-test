@@ -12,3 +12,12 @@ function multiply(...args) {
         return e;
     }
 }
+
+
+const multiplyByTen = multiply(10);
+console.log(multiplyByTen(2));   // 20
+const multiplyByTwo = multiply(2);
+console.log(multiplyByTwo(3));   // 6
+// const multiplyByTwo = multiply(["two"]); //ошибка с кодом INVALID_ARGUMENT
+// const multiplyByTwo = multiply(2);
+console.log(multiplyByTwo('3'));   // ошибка с кодом INVALID_ARGUMENT
