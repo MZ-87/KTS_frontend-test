@@ -1,6 +1,4 @@
 function removeAnagrams(arr) {
-  let map = new Map();
-  let sortedArr = [];
 
   try {
     if (!Array.isArray(arr)) {
@@ -12,6 +10,9 @@ function removeAnagrams(arr) {
       }
     }
 
+    let map = new Map();
+    let sortedArr = [];
+    
     // for (let word of arr) {
     //   let sorted = word.toLowerCase().split('').sort().join(''); 
     //   map.set(sorted, word);

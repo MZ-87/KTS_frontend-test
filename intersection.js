@@ -35,4 +35,3 @@ console.log(intersection ());
 console.log(intersection([], '[]'));
 console.log(intersection([], [1, '2']) );
 
-//нужно использовать методы let intersection = arrA.filter(x => arrB.includes(x));
